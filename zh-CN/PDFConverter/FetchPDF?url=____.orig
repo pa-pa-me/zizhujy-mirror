@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>错误</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/Content/Images/zizhujy.ico" type="image/x-icon" />
+    
+    <link href="/Content/commonStyles?v=8e7Wj3JeZwwbB6KYALWHqUSAm66jy3xZIRxp3TyhVPg1" rel="stylesheet"/>
+<link href="/Scripts/jquery-ui/css/smoothness/jquery-ui?v=9ZRwJxOnkWGxm0ojZVAKuQSIsQZCIg7koco44Ubw08E1" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="/Content/css/iconfontsFico.css?v=68022499026fb760bdb2cf17414570f2" />
+    <link rel="stylesheet" type="text/css" href="/Scripts/select2/select2.css?v=ab3d6393c695afcb7fd782d25a916a24" />
+
+    
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/Scripts/html5/html5shiv.js?v=ee68da404bd6cbdab3adb3bf9219c207"></script>
+    <![endif]-->
+    <script src="/Scripts/Common/js?v=IeIVYn0X3Uw5VWozLeNkyvB5lMsSvecXXFIatw4q9VM1"></script>
+
+    
+</head>
+<body>
+    <div id="page">
+            <div id="header">
+                <div id="menucontainer">
+                    <ul class="menu" style="float: left;">
+                        <li pageid="Home">
+                            <a href="/zh-CN" title="首页">首页</a>
+                        </li>
+                        <li pageid="FunctionGrapher">
+                            <a href="/zh-CN/FunctionGrapher" title="在线函数画图 - 图形计算器，在线求解方程">函数画图</a>
+                        </li>
+                        <li pageid="Plotter">
+                            <a href="/zh-CN/Plotter" title="在线统计计算器 - 作散点图，趋势拟合，线性回归">统计计算器</a>
+                        </li>
+                        <li pageid="ScientificCalculator">
+                            <a href="/zh-CN/GeekCalculator" title="牛屄的科学计算器">极客计算器</a>
+                        </li>
+                        <li pageid="PDFConverter">
+                            <a href="/zh-CN/PDFConverter" title="在线将网页转换成 PDF 文档">PDF 转换器</a>
+                        </li>
+                        <li pageid="GraphWorld">
+                            <a href="/zh-CN/GraphWorld" title="在线生成完全图、正则图、随机图">图的世界</a>
+                        </li>
+                        <li pageid="Matrix">
+                            <a href="/zh-CN/Matrix" title="在线矩阵计算器">矩阵计算器</a>
+                        </li>
+
+                        <li pageid="ApplicationFactory">
+                            <a href="/zh-CN/ApplicationFactory" title="在线应用工厂">应用工厂</a>
+                        </li>
+                        <li pageid="Blog">
+                            <a href="/blog" title="我的博客" target="_blank">博客</a>
+                        </li>
+                        <li pageid="About">
+                            <a href="/zh-CN/Home/About" title="关于我">关于</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="clearFloat"></div>
+                </div>
+                <div id="banner">
+                    <div id="logo">
+                        <div id="logoImage"></div>
+                        <div id="logoText">
+                            <h1><a href="/blog" title="紫竹叽歪">紫竹叽歪</a></h1>
+                            <span class="logo-text-desc">做程序员中最好的运动员，做运动员中最好的程序员</span>
+                        </div>
+                    </div>
+                    <div id="bannerRight">
+
+                        
+                    </div>
+                </div>
+
+                <div id="additional-header"></div>
+            </div>
+        <div id="main">
+            
+
+<h2>
+    抱歉，处理您的请求时出错。
+</h2>
+<p>
+    获取这个 URL &#39;____&#39; 的 PDF 版本时失败了。\r\nUnable to load the address &quot;____&quot;! Status = fail
+
+</p>
+
+<div>
+        <h3></h3>
+        <ul>
+            <li>
+                <strong>错误信息：</strong>
+                {&quot;Verb&quot;:&quot;&quot;,&quot;Arguments&quot;:&quot;D:\\Users\\apphb0955021f016014\\app\\_PublishedWebsites\\ZiZhuJY.WebUI\\Bin\\grabWebPageToPDF.js \u0027____\u0027 \u0027D:\\Users\\apphb0955021f016014\\app\\_PublishedWebsites\\ZiZhuJY.WebUI\\Temp\\GrabWebPageToPDF_467658d0-176d-49b1-9009-0d55e80bb289.pdf\u0027 &quot;,&quot;CreateNoWindow&quot;:false,&quot;EnvironmentVariables&quot;:[{&quot;Key&quot;:&quot;CommonProgramFiles(x86)&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)\\Common Files&quot;},{&quot;Key&quot;:&quot;Path&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Amazon\\cfn-bootstrap\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;c:\\Program Files\\dotnet\\;c:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\nodejs\\;&quot;},{&quot;Key&quot;:&quot;PROCESSOR_IDENTIFIER&quot;,&quot;Value&quot;:&quot;Intel64 Family 6 Model 85 Stepping 4, GenuineIntel&quot;},{&quot;Key&quot;:&quot;TEMP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local\\Temp&quot;},{&quot;Key&quot;:&quot;ProgramFiles(x86)&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)&quot;},{&quot;Key&quot;:&quot;ProgramW6432&quot;,&quot;Value&quot;:&quot;C:\\Program Files&quot;},{&quot;Key&quot;:&quot;PROCESSOR_ARCHITEW6432&quot;,&quot;Value&quot;:&quot;AMD64&quot;},{&quot;Key&quot;:&quot;PROCESSOR_ARCHITECTURE&quot;,&quot;Value&quot;:&quot;x86&quot;},{&quot;Key&quot;:&quot;LOCALAPPDATA&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local&quot;},{&quot;Key&quot;:&quot;USERNAME&quot;,&quot;Value&quot;:&quot;apphb0955021f016014&quot;},{&quot;Key&quot;:&quot;COMPUTERNAME&quot;,&quot;Value&quot;:&quot;IP-AC1A0261&quot;},{&quot;Key&quot;:&quot;ProgramData&quot;,&quot;Value&quot;:&quot;c:\\ProgramData&quot;},{&quot;Key&quot;:&quot;PUBLIC&quot;,&quot;Value&quot;:&quot;C:\\Users\\Public&quot;},{&quot;Key&quot;:&quot;ALLUSERSPROFILEMAP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\ProgramData&quot;},{&quot;Key&quot;:&quot;USERPROFILE&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014&quot;},{&quot;Key&quot;:&quot;FP_NO_HOST_CHECK&quot;,&quot;Value&quot;:&quot;NO&quot;},{&quot;Key&quot;:&quot;PROCESSOR_LEVEL&quot;,&quot;Value&quot;:&quot;6&quot;},{&quot;Key&quot;:&quot;DOTNET_CLI_TELEMETRY_OPTOUT&quot;,&quot;Value&quot;:&quot;1&quot;},{&quot;Key&quot;:&quot;windir&quot;,&quot;Value&quot;:&quot;C:\\Windows&quot;},{&quot;Key&quot;:&quot;USERDOMAIN&quot;,&quot;Value&quot;:&quot;IP-AC1A0261&quot;},{&quot;Key&quot;:&quot;ALLUSERSPROFILE&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\ProgramData&quot;},{&quot;Key&quot;:&quot;NUMBER_OF_PROCESSORS&quot;,&quot;Value&quot;:&quot;4&quot;},{&quot;Key&quot;:&quot;APPDATA&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Roaming&quot;},{&quot;Key&quot;:&quot;PATHEXT&quot;,&quot;Value&quot;:&quot;.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC&quot;},{&quot;Key&quot;:&quot;ComSpec&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32\\cmd.exe&quot;},{&quot;Key&quot;:&quot;SystemRoot&quot;,&quot;Value&quot;:&quot;C:\\Windows&quot;},{&quot;Key&quot;:&quot;APP_POOL_ID&quot;,&quot;Value&quot;:&quot;app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014&quot;},{&quot;Key&quot;:&quot;CommonProgramFiles&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)\\Common Files&quot;},{&quot;Key&quot;:&quot;SystemDrive&quot;,&quot;Value&quot;:&quot;C:&quot;},{&quot;Key&quot;:&quot;CommonProgramW6432&quot;,&quot;Value&quot;:&quot;C:\\Program Files\\Common Files&quot;},{&quot;Key&quot;:&quot;OS&quot;,&quot;Value&quot;:&quot;Windows_NT&quot;},{&quot;Key&quot;:&quot;PROCESSOR_REVISION&quot;,&quot;Value&quot;:&quot;5504&quot;},{&quot;Key&quot;:&quot;PSModulePath&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\AWS Tools\\PowerShell\\&quot;},{&quot;Key&quot;:&quot;ProgramFiles&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)&quot;},{&quot;Key&quot;:&quot;TMP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local\\Temp&quot;},{&quot;Key&quot;:&quot;APP_POOL_CONFIG&quot;,&quot;Value&quot;:&quot;C:\\inetpub\\temp\\apppools\\app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014\\app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014.config&quot;}],&quot;Environment&quot;:[{&quot;Key&quot;:&quot;CommonProgramFiles(x86)&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)\\Common Files&quot;},{&quot;Key&quot;:&quot;Path&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Amazon\\cfn-bootstrap\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;c:\\Program Files\\dotnet\\;c:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\nodejs\\;&quot;},{&quot;Key&quot;:&quot;PROCESSOR_IDENTIFIER&quot;,&quot;Value&quot;:&quot;Intel64 Family 6 Model 85 Stepping 4, GenuineIntel&quot;},{&quot;Key&quot;:&quot;TEMP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local\\Temp&quot;},{&quot;Key&quot;:&quot;ProgramFiles(x86)&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)&quot;},{&quot;Key&quot;:&quot;ProgramW6432&quot;,&quot;Value&quot;:&quot;C:\\Program Files&quot;},{&quot;Key&quot;:&quot;PROCESSOR_ARCHITEW6432&quot;,&quot;Value&quot;:&quot;AMD64&quot;},{&quot;Key&quot;:&quot;PROCESSOR_ARCHITECTURE&quot;,&quot;Value&quot;:&quot;x86&quot;},{&quot;Key&quot;:&quot;LOCALAPPDATA&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local&quot;},{&quot;Key&quot;:&quot;USERNAME&quot;,&quot;Value&quot;:&quot;apphb0955021f016014&quot;},{&quot;Key&quot;:&quot;COMPUTERNAME&quot;,&quot;Value&quot;:&quot;IP-AC1A0261&quot;},{&quot;Key&quot;:&quot;ProgramData&quot;,&quot;Value&quot;:&quot;c:\\ProgramData&quot;},{&quot;Key&quot;:&quot;PUBLIC&quot;,&quot;Value&quot;:&quot;C:\\Users\\Public&quot;},{&quot;Key&quot;:&quot;ALLUSERSPROFILEMAP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\ProgramData&quot;},{&quot;Key&quot;:&quot;USERPROFILE&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014&quot;},{&quot;Key&quot;:&quot;FP_NO_HOST_CHECK&quot;,&quot;Value&quot;:&quot;NO&quot;},{&quot;Key&quot;:&quot;PROCESSOR_LEVEL&quot;,&quot;Value&quot;:&quot;6&quot;},{&quot;Key&quot;:&quot;DOTNET_CLI_TELEMETRY_OPTOUT&quot;,&quot;Value&quot;:&quot;1&quot;},{&quot;Key&quot;:&quot;windir&quot;,&quot;Value&quot;:&quot;C:\\Windows&quot;},{&quot;Key&quot;:&quot;USERDOMAIN&quot;,&quot;Value&quot;:&quot;IP-AC1A0261&quot;},{&quot;Key&quot;:&quot;ALLUSERSPROFILE&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\ProgramData&quot;},{&quot;Key&quot;:&quot;NUMBER_OF_PROCESSORS&quot;,&quot;Value&quot;:&quot;4&quot;},{&quot;Key&quot;:&quot;APPDATA&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Roaming&quot;},{&quot;Key&quot;:&quot;PATHEXT&quot;,&quot;Value&quot;:&quot;.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC&quot;},{&quot;Key&quot;:&quot;ComSpec&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32\\cmd.exe&quot;},{&quot;Key&quot;:&quot;SystemRoot&quot;,&quot;Value&quot;:&quot;C:\\Windows&quot;},{&quot;Key&quot;:&quot;APP_POOL_ID&quot;,&quot;Value&quot;:&quot;app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014&quot;},{&quot;Key&quot;:&quot;CommonProgramFiles&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)\\Common Files&quot;},{&quot;Key&quot;:&quot;SystemDrive&quot;,&quot;Value&quot;:&quot;C:&quot;},{&quot;Key&quot;:&quot;CommonProgramW6432&quot;,&quot;Value&quot;:&quot;C:\\Program Files\\Common Files&quot;},{&quot;Key&quot;:&quot;OS&quot;,&quot;Value&quot;:&quot;Windows_NT&quot;},{&quot;Key&quot;:&quot;PROCESSOR_REVISION&quot;,&quot;Value&quot;:&quot;5504&quot;},{&quot;Key&quot;:&quot;PSModulePath&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\AWS Tools\\PowerShell\\&quot;},{&quot;Key&quot;:&quot;ProgramFiles&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)&quot;},{&quot;Key&quot;:&quot;TMP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local\\Temp&quot;},{&quot;Key&quot;:&quot;APP_POOL_CONFIG&quot;,&quot;Value&quot;:&quot;C:\\inetpub\\temp\\apppools\\app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014\\app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014.config&quot;}],&quot;RedirectStandardInput&quot;:false,&quot;RedirectStandardOutput&quot;:true,&quot;RedirectStandardError&quot;:true,&quot;StandardErrorEncoding&quot;:null,&quot;StandardOutputEncoding&quot;:null,&quot;UseShellExecute&quot;:false,&quot;Verbs&quot;:[&quot;open&quot;,&quot;runas&quot;,&quot;runasuser&quot;],&quot;UserName&quot;:&quot;&quot;,&quot;Password&quot;:null,&quot;PasswordInClearText&quot;:null,&quot;Domain&quot;:&quot;&quot;,&quot;LoadUserProfile&quot;:false,&quot;FileName&quot;:&quot;D:\\Users\\apphb0955021f016014\\app\\_PublishedWebsites\\ZiZhuJY.WebUI\\Bin\\phantomjs.exe&quot;,&quot;WorkingDirectory&quot;:&quot;&quot;,&quot;ErrorDialog&quot;:false,&quot;ErrorDialogParentHandle&quot;:0,&quot;WindowStyle&quot;:1}
+            </li>
+            <li>
+                <strong>错误明细：</strong>
+                System.IO.FileNotFoundException: {&quot;Verb&quot;:&quot;&quot;,&quot;Arguments&quot;:&quot;D:\\Users\\apphb0955021f016014\\app\\_PublishedWebsites\\ZiZhuJY.WebUI\\Bin\\grabWebPageToPDF.js \u0027____\u0027 \u0027D:\\Users\\apphb0955021f016014\\app\\_PublishedWebsites\\ZiZhuJY.WebUI\\Temp\\GrabWebPageToPDF_467658d0-176d-49b1-9009-0d55e80bb289.pdf\u0027 &quot;,&quot;CreateNoWindow&quot;:false,&quot;EnvironmentVariables&quot;:[{&quot;Key&quot;:&quot;CommonProgramFiles(x86)&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)\\Common Files&quot;},{&quot;Key&quot;:&quot;Path&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Amazon\\cfn-bootstrap\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;c:\\Program Files\\dotnet\\;c:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\nodejs\\;&quot;},{&quot;Key&quot;:&quot;PROCESSOR_IDENTIFIER&quot;,&quot;Value&quot;:&quot;Intel64 Family 6 Model 85 Stepping 4, GenuineIntel&quot;},{&quot;Key&quot;:&quot;TEMP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local\\Temp&quot;},{&quot;Key&quot;:&quot;ProgramFiles(x86)&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)&quot;},{&quot;Key&quot;:&quot;ProgramW6432&quot;,&quot;Value&quot;:&quot;C:\\Program Files&quot;},{&quot;Key&quot;:&quot;PROCESSOR_ARCHITEW6432&quot;,&quot;Value&quot;:&quot;AMD64&quot;},{&quot;Key&quot;:&quot;PROCESSOR_ARCHITECTURE&quot;,&quot;Value&quot;:&quot;x86&quot;},{&quot;Key&quot;:&quot;LOCALAPPDATA&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local&quot;},{&quot;Key&quot;:&quot;USERNAME&quot;,&quot;Value&quot;:&quot;apphb0955021f016014&quot;},{&quot;Key&quot;:&quot;COMPUTERNAME&quot;,&quot;Value&quot;:&quot;IP-AC1A0261&quot;},{&quot;Key&quot;:&quot;ProgramData&quot;,&quot;Value&quot;:&quot;c:\\ProgramData&quot;},{&quot;Key&quot;:&quot;PUBLIC&quot;,&quot;Value&quot;:&quot;C:\\Users\\Public&quot;},{&quot;Key&quot;:&quot;ALLUSERSPROFILEMAP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\ProgramData&quot;},{&quot;Key&quot;:&quot;USERPROFILE&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014&quot;},{&quot;Key&quot;:&quot;FP_NO_HOST_CHECK&quot;,&quot;Value&quot;:&quot;NO&quot;},{&quot;Key&quot;:&quot;PROCESSOR_LEVEL&quot;,&quot;Value&quot;:&quot;6&quot;},{&quot;Key&quot;:&quot;DOTNET_CLI_TELEMETRY_OPTOUT&quot;,&quot;Value&quot;:&quot;1&quot;},{&quot;Key&quot;:&quot;windir&quot;,&quot;Value&quot;:&quot;C:\\Windows&quot;},{&quot;Key&quot;:&quot;USERDOMAIN&quot;,&quot;Value&quot;:&quot;IP-AC1A0261&quot;},{&quot;Key&quot;:&quot;ALLUSERSPROFILE&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\ProgramData&quot;},{&quot;Key&quot;:&quot;NUMBER_OF_PROCESSORS&quot;,&quot;Value&quot;:&quot;4&quot;},{&quot;Key&quot;:&quot;APPDATA&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Roaming&quot;},{&quot;Key&quot;:&quot;PATHEXT&quot;,&quot;Value&quot;:&quot;.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC&quot;},{&quot;Key&quot;:&quot;ComSpec&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32\\cmd.exe&quot;},{&quot;Key&quot;:&quot;SystemRoot&quot;,&quot;Value&quot;:&quot;C:\\Windows&quot;},{&quot;Key&quot;:&quot;APP_POOL_ID&quot;,&quot;Value&quot;:&quot;app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014&quot;},{&quot;Key&quot;:&quot;CommonProgramFiles&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)\\Common Files&quot;},{&quot;Key&quot;:&quot;SystemDrive&quot;,&quot;Value&quot;:&quot;C:&quot;},{&quot;Key&quot;:&quot;CommonProgramW6432&quot;,&quot;Value&quot;:&quot;C:\\Program Files\\Common Files&quot;},{&quot;Key&quot;:&quot;OS&quot;,&quot;Value&quot;:&quot;Windows_NT&quot;},{&quot;Key&quot;:&quot;PROCESSOR_REVISION&quot;,&quot;Value&quot;:&quot;5504&quot;},{&quot;Key&quot;:&quot;PSModulePath&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\AWS Tools\\PowerShell\\&quot;},{&quot;Key&quot;:&quot;ProgramFiles&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)&quot;},{&quot;Key&quot;:&quot;TMP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local\\Temp&quot;},{&quot;Key&quot;:&quot;APP_POOL_CONFIG&quot;,&quot;Value&quot;:&quot;C:\\inetpub\\temp\\apppools\\app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014\\app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014.config&quot;}],&quot;Environment&quot;:[{&quot;Key&quot;:&quot;CommonProgramFiles(x86)&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)\\Common Files&quot;},{&quot;Key&quot;:&quot;Path&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Amazon\\cfn-bootstrap\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;c:\\Program Files\\dotnet\\;c:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\nodejs\\;&quot;},{&quot;Key&quot;:&quot;PROCESSOR_IDENTIFIER&quot;,&quot;Value&quot;:&quot;Intel64 Family 6 Model 85 Stepping 4, GenuineIntel&quot;},{&quot;Key&quot;:&quot;TEMP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local\\Temp&quot;},{&quot;Key&quot;:&quot;ProgramFiles(x86)&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)&quot;},{&quot;Key&quot;:&quot;ProgramW6432&quot;,&quot;Value&quot;:&quot;C:\\Program Files&quot;},{&quot;Key&quot;:&quot;PROCESSOR_ARCHITEW6432&quot;,&quot;Value&quot;:&quot;AMD64&quot;},{&quot;Key&quot;:&quot;PROCESSOR_ARCHITECTURE&quot;,&quot;Value&quot;:&quot;x86&quot;},{&quot;Key&quot;:&quot;LOCALAPPDATA&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local&quot;},{&quot;Key&quot;:&quot;USERNAME&quot;,&quot;Value&quot;:&quot;apphb0955021f016014&quot;},{&quot;Key&quot;:&quot;COMPUTERNAME&quot;,&quot;Value&quot;:&quot;IP-AC1A0261&quot;},{&quot;Key&quot;:&quot;ProgramData&quot;,&quot;Value&quot;:&quot;c:\\ProgramData&quot;},{&quot;Key&quot;:&quot;PUBLIC&quot;,&quot;Value&quot;:&quot;C:\\Users\\Public&quot;},{&quot;Key&quot;:&quot;ALLUSERSPROFILEMAP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\ProgramData&quot;},{&quot;Key&quot;:&quot;USERPROFILE&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014&quot;},{&quot;Key&quot;:&quot;FP_NO_HOST_CHECK&quot;,&quot;Value&quot;:&quot;NO&quot;},{&quot;Key&quot;:&quot;PROCESSOR_LEVEL&quot;,&quot;Value&quot;:&quot;6&quot;},{&quot;Key&quot;:&quot;DOTNET_CLI_TELEMETRY_OPTOUT&quot;,&quot;Value&quot;:&quot;1&quot;},{&quot;Key&quot;:&quot;windir&quot;,&quot;Value&quot;:&quot;C:\\Windows&quot;},{&quot;Key&quot;:&quot;USERDOMAIN&quot;,&quot;Value&quot;:&quot;IP-AC1A0261&quot;},{&quot;Key&quot;:&quot;ALLUSERSPROFILE&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\ProgramData&quot;},{&quot;Key&quot;:&quot;NUMBER_OF_PROCESSORS&quot;,&quot;Value&quot;:&quot;4&quot;},{&quot;Key&quot;:&quot;APPDATA&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Roaming&quot;},{&quot;Key&quot;:&quot;PATHEXT&quot;,&quot;Value&quot;:&quot;.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC&quot;},{&quot;Key&quot;:&quot;ComSpec&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32\\cmd.exe&quot;},{&quot;Key&quot;:&quot;SystemRoot&quot;,&quot;Value&quot;:&quot;C:\\Windows&quot;},{&quot;Key&quot;:&quot;APP_POOL_ID&quot;,&quot;Value&quot;:&quot;app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014&quot;},{&quot;Key&quot;:&quot;CommonProgramFiles&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)\\Common Files&quot;},{&quot;Key&quot;:&quot;SystemDrive&quot;,&quot;Value&quot;:&quot;C:&quot;},{&quot;Key&quot;:&quot;CommonProgramW6432&quot;,&quot;Value&quot;:&quot;C:\\Program Files\\Common Files&quot;},{&quot;Key&quot;:&quot;OS&quot;,&quot;Value&quot;:&quot;Windows_NT&quot;},{&quot;Key&quot;:&quot;PROCESSOR_REVISION&quot;,&quot;Value&quot;:&quot;5504&quot;},{&quot;Key&quot;:&quot;PSModulePath&quot;,&quot;Value&quot;:&quot;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\AWS Tools\\PowerShell\\&quot;},{&quot;Key&quot;:&quot;ProgramFiles&quot;,&quot;Value&quot;:&quot;C:\\Program Files (x86)&quot;},{&quot;Key&quot;:&quot;TMP&quot;,&quot;Value&quot;:&quot;D:\\Users\\apphb0955021f016014\\AppData\\Local\\Temp&quot;},{&quot;Key&quot;:&quot;APP_POOL_CONFIG&quot;,&quot;Value&quot;:&quot;C:\\inetpub\\temp\\apppools\\app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014\\app-0955021f-0e8a-46b0-be6a-a3df00351686-port-16014.config&quot;}],&quot;RedirectStandardInput&quot;:false,&quot;RedirectStandardOutput&quot;:true,&quot;RedirectStandardError&quot;:true,&quot;StandardErrorEncoding&quot;:null,&quot;StandardOutputEncoding&quot;:null,&quot;UseShellExecute&quot;:false,&quot;Verbs&quot;:[&quot;open&quot;,&quot;runas&quot;,&quot;runasuser&quot;],&quot;UserName&quot;:&quot;&quot;,&quot;Password&quot;:null,&quot;PasswordInClearText&quot;:null,&quot;Domain&quot;:&quot;&quot;,&quot;LoadUserProfile&quot;:false,&quot;FileName&quot;:&quot;D:\\Users\\apphb0955021f016014\\app\\_PublishedWebsites\\ZiZhuJY.WebUI\\Bin\\phantomjs.exe&quot;,&quot;WorkingDirectory&quot;:&quot;&quot;,&quot;ErrorDialog&quot;:false,&quot;ErrorDialogParentHandle&quot;:0,&quot;WindowStyle&quot;:1}
+File name: &#39;D:\Users\apphb0955021f016014\app\_PublishedWebsites\ZiZhuJY.WebUI\Temp\GrabWebPageToPDF_467658d0-176d-49b1-9009-0d55e80bb289.pdf&#39;
+            </li>
+            <li>
+                <strong>动作名称：</strong>
+                ViewPDF
+            </li>
+            <li>
+                <strong>控制器名称：</strong>
+                PDF
+            </li>
+        </ul>
+</div>
+
+
+            <div class="clearFloat"></div>
+        </div>
+        <div id="footer">
+            <ul class="footerMenu">
+                <li>
+                    <a href="mailto:jeff.tian@outlook.com" title="联系我" target="_blank">
+                        联系我
+                    </a>
+                </li>
+                <li>
+                    <a href="/zh-CN/Home/Resume" target="_blank">招了我？</a>
+                </li>
+                <li>
+<a href="http://nowherewoman.com/" target="_blank" title="
+除了工作，你的生活还需要点儿别的颜色。">找不到的女人？</a>
+</li>
+                
+                
+            </ul>
+            
+            <div style="float: right;">
+                <ul class="footerMenu">
+                    <li>
+                        <a href="http://zizhujy.apphb.com" title="镜像站点" target="_blank">
+                            镜像站点
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://bitbucket.org/JeffTian/zizhujy.com/wiki/Home" title="维基" target="_blank">
+                            维基
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://bitbucket.org/JeffTian/zizhujy.com/issues/new" title="谢谢你向我报告问题，有你的帮助我会做得更好！" target="_blank">
+                            报告问题
+                        </a>
+                    </li>
+                </ul>
+                
+    <label for="cultures" class="icon" style="vertical-align: middle;">&#xe000;</label> <span class="ui-widget" id="culture-selection"><select id="cultures" name="cultures"><option value="/en-us/PDF/ViewPDF?url=____">English (United State)</option>
+<option selected="selected" value="/zh-cn/PDF/ViewPDF?url=____">中文（简体）</option>
+</select></span>
+
+            </div>
+            <div class="clearFloat"></div>
+        </div>
+    </div>
+    
+
+        <link href="/Scripts/SocialPlugin/socialplugin.css" rel="Stylesheet" type="text/css" />
+        <script defer="defer" src="/Scripts/SocialPlugin/socialplugin.js" type="text/javascript"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4867336-3', 'zizhujy.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

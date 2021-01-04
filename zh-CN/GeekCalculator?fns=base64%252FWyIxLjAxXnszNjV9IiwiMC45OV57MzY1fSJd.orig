@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>极客计算器 -- 牛屄的科学计算器，快速无与伦比！</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/Content/Images/zizhujy.ico" type="image/x-icon" />
+    
+    <link href="/Content/commonStyles?v=8e7Wj3JeZwwbB6KYALWHqUSAm66jy3xZIRxp3TyhVPg1" rel="stylesheet"/>
+<link href="/Scripts/jquery-ui/css/smoothness/jquery-ui?v=9ZRwJxOnkWGxm0ojZVAKuQSIsQZCIg7koco44Ubw08E1" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="/Content/css/iconfontsFico.css?v=68022499026fb760bdb2cf17414570f2" />
+    <link rel="stylesheet" type="text/css" href="/Scripts/select2/select2.css?v=ab3d6393c695afcb7fd782d25a916a24" />
+
+    
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/Scripts/html5/html5shiv.js?v=ee68da404bd6cbdab3adb3bf9219c207"></script>
+    <![endif]-->
+    <script src="/Scripts/Common/js?v=IeIVYn0X3Uw5VWozLeNkyvB5lMsSvecXXFIatw4q9VM1"></script>
+
+    
+    <meta name="keywords" content="计算器, 科学, 极客" />
+    <meta name="description" content="一款牛屄的急速的科学计算器。在你输入数学计算式的同时在旁边即时显示计算结果，让极客们爱不释手。" />
+    <meta name="robots" content="index, follow" />
+    <link href="/Content/css/effects.css" rel="stylesheet"/>
+<link href="/Scripts/mathquill/mathquill.css" rel="stylesheet"/>
+<link href="/Content/css/apps/funControl.css" rel="stylesheet"/>
+
+
+    <style type="text/css">
+        .expressionBox {
+            width: 50%;
+            float: left;
+            box-sizing: border-box;
+        }
+
+            .expressionBox .clear {
+                right: 5px;
+                top: 3px;
+            }
+
+        .answer {
+            width: 50%;
+            float: right;
+            box-sizing: border-box;
+            padding-left: 2em;
+        }
+
+        #get-link {
+            float: right;
+            margin-right: 50%;
+        }
+    </style>
+    <script src="/Scripts/Math/js?v=r_lCWOVKrnxr0ASnjwB54t9j5ZB4NP_UGC_VoyPbGCg1"></script>
+
+    <script type="text/javascript" src="/Scripts/zizhujy.com.Collection.js"></script>
+    <script type="text/javascript" src="/Scripts/zizhujy.com.DataTable.js"></script>
+    <script type="text/javascript" src="/Scripts/FunctionGrapher/funControl.js"></script>
+
+    <script type="text/javascript">
+        Globalize.addCultureInfo("default", {
+            messages: {"AdZone":"\u003cscript async src=\"http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"\u003e\u003c/script\u003e\n\u003c!-- New version of Fun Grapher --\u003e\n\u003cins class=\"adsbygoogle\"\n     style=\"display:inline-block;width:336px;height:280px\"\n     data-ad-client=\"ca-pub-9332882982479681\"\n     data-ad-slot=\"7322914588\"\u003e\u003c/ins\u003e\n\u003cscript\u003e\n(adsbygoogle = window.adsbygoogle || []).push({});\n\u003c/script\u003e","GraphButtonText":"作图","PIPE_EXPECTED":"期待管道符（竖线） \u0027|\u0027。","CLOSING_BRACE_EXPECTED":"期待一个关闭的花括号 \"}\" 。","UNEXPECTED_END_OF_SOURCE":"输入意外结束。","TutorialDescription":"还没来得及写。不过，它的使用真的非常简单，你可以通过查看示例学会。然后，你可以将你的经验发布在你的博客上，或者将你的计算过程的链接粘贴在你的微博上，大家可以通过你的实际使用获得启发。","FUNCTION_EXPECTED":"期待一个函数名 (如 sin 或 cos) 。","ToggleNavigationControl":"显示/隐藏 控制面板","Setting":"设置","UNKNOWN_ERROR":"未知错误。","VAR_T_EXPECTED":"期待变量 t 。","FastDescription":"就在你输入函数表达式时，图形就帮你呈现出来了。如果输入有误，也能立即得到提示。","Gallery":"画廊：","RefreshGraph":"刷新","ScaleOfTAxiesTitle":"t 从 ","DrawingDesc":"请稍等片刻，正在努力地计算中……","OldVersion":"访问旧版","HyperbolaCurve":"双曲线","ScaleOfYAxiesTitle":"y 从","Remark":"消息","Spiral":"螺旋","LEFT_COMMAND_EXPECTED":"期待 LaTex 命令 \u0027\\\\left\u0027。","UNEXPECTED_RIGHT_COMMAND":"遇到了意外的 LaTex 命令 \u0027\\\\right\u0027。","FullScreen":"切换全屏","VAR_X_EXPECTED":"期待变量 x 。","POSITIVE_SIGN_EXPECTED":"期待一个正号 \u0027+\u0027 。","RhythmRipple":"律动波纹","EVALUATION_OPERATOR_EXPECTED":"期待一个赋值符号 \"=\" 。","OPEN_BRACE_EXPECTED":"期待一个开始的花括号 \"{\" 。","SeoDescription":"在线函数画图，绘制给定函数的图像。这是一款小巧灵活的在线函数作图工具，多函数支持，而且能够作出隐函数图像！支持 LaTex 表达式，还可以用作在线公式编辑器、图形计算器。在线探索一次函数、二次函数、多项式函数、指数函数、对数函数、三角函数以及各类隐函数图形图像。","DEPENDENT_VAR_Y_EXPECTED":"期待因变量 y 。","Tutorial":"教程：","Context":"相关输入","SeoKeywords":"函数涂鸦板, 涂鸦板, 函数作图, 函数作图器, 作图器, 图形, 在线画图, 在线作图, 在线函数作图器, 2维函数图形, 图形计算器,隐函数作图, 函数图像","ToTitle":"到","BannerTitle":"函数涂鸦板 \u003cspan style=\"color: red; font-weight: normal; font-size: small;\"\u003e在线函数画图，支持隐函数！\u003c/span\u003e","LittleHorse":"王小川画的《小马过河》","FlotOptionsPopUp_ShowLegend":"图例","BasicExample":"基本示例","END_OF_SOURCE_EXPECTED":"期待输入结束。","CloseLinkDialog":"关闭","ExponentialFunction":"指数函数","SleepyFace":"囧（困乏的人脸）","WaitingCaution":"（需要耗费多一点时间，请耐心等待……）","SaveAsImagePlugin.notSupportMessage":"当前浏览器不支持创建图片文件，请手动按 Print Screen 键保存图形。","FunctionsTitle":"请输入函数表达式：","FunGrapher":"趣涂函数涂鸦板：","WaterStream":"细水长流","PageTitle":"趣涂在线函数画图 - 小巧灵活的在线绘图应用，支持隐函数作图！在线探索各种函数图形。","Or":"或者","ScaleOfXAxiesTitle":"x 从 ","TipForSavingGraph":"要保存当前图形，您可以直接在图形上“按鼠标右键”，然后选择”另存为……“选项。","VARIABLE_NAME_EXPECTED":"期待变量名  (如 abc) 。","ArtDescription":"你甚至可以用它来进行艺术创作，看看示例，以及别人的作品，你能得到启发吗？","FlotOptionButtonTitle":"选项","ShowHelp":"帮助","Art":"艺术：","Darts":"飞镖","Index":"索引","Nappe":"水帘","Share":"分享：","FreeDescription":"函数表达式个数没有限制，当你想要添加一个函数表达式，只需按回车键就好。","ShareDescription":"你随时可以生成一个到你当前画好的图形的永久链接，可以保存起来或者分享出去。","ResetButtonText":"清除","Drawing":"正在计算","Features":"特性：","Explore":"探索函数图形图像:","LESS_THAN_EXPECTED":"期待小于号 \u0027\u003c \u0027。","DEPENDENT_VAR_X_EXPECTED":"期待因变量 x 。","COMMA_EXPECTED":"期待一个逗号 \",\"  。","CloseTips":"关闭帮助","CloseMsg":"关闭信息窗口","QuadraticFunction":"二次函数","SEMICOLON_EXPECTED":"期待一个分号 \";\" 。","GetLinkMessageTitle":"获取当前页面图形的永久链接。","Examples":"示例：","ClearAll":"清除全部（\u003cspan style=\"text-decoration: underline;\"\u003eC\u003c/span\u003e）","CubicFunction":"三次函数","ErrorList":"输入有些错误：","VAR_Y_EXPECTED":"期待变量 y 。","LockRatio":"锁定比例","LATEX_OPEN_BRACE_EXPECTED":"期待在 LaTex 命令中的开头的花括号： \"\\\\{\"。","FlotOptionsPopUpTitle":"选项：","LinearFunction":"线性（一次）函数","GetLinkTitle":"获取链接（\u003cspan style=\"text-decoration: underline;\"\u003eL\u003c/span\u003e）","LATEX_COMMAND_EXPECTED":"期待一个 LaTex 命令 (如 \\\\frac 或 \\\\sqrt) 。","LATEX_CLOSING_BRACE_EXPECTED":"期待在 LaTex 命令中的结尾的花括号： \"\\\\}\"。","PolynomialFunction":"多项式函数","CONSTANT_VALUE_EXPECTED":"期待一个常量值 (如 PI) 。","LogoRaw":"\u003ca href=\"#\" onclick=\"return false;\" title=\"趣涂在线函数画图\"\u003e\u003cimg src=\"{0}\" alt=\"趣涂 函数作图器！\" /\u003e\u003c/a\u003e","Loading":"正在加载中…… 就快出来了！  ^_^","LittleHorseTitle":"搜狗 CEO 王小川用函数画图创作了一幅作品《小马过河》。","DIGITAL_NUMBER_EXPECTED":"期待一个数字 (如 123.123) 。","SaveAsJPEG":"保存为 JPEG 格式的图片...","UNKNOWN_LATEX_COMMAND_MET":"遇到了不认识的 LaTex 命令。","EQUAL_SIGN_EXPECTED":"期待一个等于号  \u0027=\u0027 。","TrigonometricFunction":"三角函数","UnitCircle":"单位圆","PlotImplicitFunctions":"画隐函数","OPEN_PARENTHESIS_EXPECTED":"期待一个开始的括号 \"(\" 。","TightEncirclement":"天罗地网","CLOSING_PARENTHESIS_EXPECTED":"期待一个关闭的括号 \")\" 。","NEGATIVE_SIGN_EXPECTED":"期待一个负号 \u0027-\u0027 。","LogoPath":"~/Content/Images/funGrapherLogo_zh-CN.png","RIGHT_COMMAND_EXPECTED":"期待 LaTex 命令 \u0027\\\\right\u0027。","SaveAsPNG":"保存为 PNG 格式的图片...","SaveAsBMP":"保存为 BMP 格式的图片...","CharmingCurve":"迷人的曲线","ShowLegend":"图例","AdvancedExample":"高级示例","Fast":"极速：","Free":"自由：","Tips":"\u003cp\u003e自变量或者因变量请用小写 x 或者小写 y 表示。平方用x^2，三次方用x^3，依次类推。多个函数用;号分隔。\u003c/p\u003e\n\u003cp\u003e目前只支持\u003cstrong style=\"color: red;\"\u003e显式函数\u003c/strong\u003e，即如下函数是有效的：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ey = x^2 + 2;\u003c/li\u003e\n\u003cli\u003ex = y^3 + 2;\u003c/li\u003e\n\u003cli style=\"color: red;\"\u003e即必须以y = 或者x = 开头，以;号结尾。\u003c/li\u003e\n\u003cli style=\"color: red;\"\u003e若以y = 开头，则等号右边的自变量必须为x；若以x = 开头，则等号右边的自变量必须为y。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e这样的函数（隐函数）是无效的：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ex + y = 5;\u003c/li\u003e\n\u003cli\u003ex^2 + y^2 = 1;\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e对于三角函数，应使用如下输入方式（即函数名后跟着\u003cstrong style=\"color: red;\"\u003e小括号\u003c/strong\u003e）：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ey = sin\u003cspan style=\"color: red;\"\u003e(\u003c/span\u003ex\u003cspan style=\"color: red;\"\u003e)\u003c/span\u003e;\u003c/li\u003e\n\u003cli\u003ey = cos\u003cspan style=\"color: red;\"\u003e(\u003c/span\u003e2*x\u003cspan style=\"color: red;\"\u003e)\u003c/span\u003e;\u003c/li\u003e\n\u003cli\u003ey = tan\u003cspan style=\"color: red;\"\u003e(\u003c/span\u003e0.5*x\u003cspan style=\"color: red;\"\u003e)\u003c/span\u003e;\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e支持这样的函数组表达式（注意用大括号括起来，函数体内部用;号分隔）：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e{x = sin(t); y = cos(t)}\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e本工具支持的函数清单见\u003ca href=\"http://www.zizhujy.com/blog/post/2011/10/10/%E5%9C%A8%E7%BA%BF%E5%87%BD%E6%95%B0%E6%B6%82%E9%B8%A6%E6%9D%BF%E6%89%80%E6%94%AF%E6%8C%81%E7%9A%84%E5%87%BD%E6%95%B0%E5%88%97%E8%A1%A8.aspx\" target=\"_blank\" title=\"在线函数画图工具支持的函数列表\"\u003e这里\u003c/a\u003e。\u003c/p\u003e\n\u003cp\u003e运算符号的输入如下：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e加：+\u003c/li\u003e\n\u003cli\u003e减：-\u003c/li\u003e\n\u003cli\u003e乘：*\u003c/li\u003e\n\u003cli\u003e除：/\u003c/li\u003e\n\u003cli\u003e乘方：^\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e在图形界面上，滚动鼠标滚轮，可以缩放图形。\u003c/p\u003e","LogarithmFunction":"对数函数"}
+            });
+        
+        $.extend(zizhujy.com.LaTexParser.errorEnum, {
+            EVALUATION_OPERATOR_EXPECTED: { message: Globalize.localize("EVALUATION_OPERATOR_EXPECTED") },
+            OPEN_BRACE_EXPECTED: { message: Globalize.localize("OPEN_BRACE_EXPECTED") },
+            LATEX_OPEN_BRACE_EXPECTED: { message: Globalize.localize("LATEX_OPEN_BRACE_EXPECTED") },
+            CLOSING_BRACE_EXPECTED: { message: Globalize.localize("CLOSING_BRACE_EXPECTED") },
+            LATEX_CLOSING_BRACE_EXPECTED: { message: Globalize.localize("LATEX_CLOSING_BRACE_EXPECTED") },
+            DEPENDENT_VAR_Y_EXPECTED: { message: Globalize.localize("DEPENDENT_VAR_Y_EXPECTED") },
+            SEMICOLON_EXPECTED: { message: Globalize.localize("SEMICOLON_EXPECTED") },
+            DEPENDENT_VAR_X_EXPECTED: { message: Globalize.localize("DEPENDENT_VAR_X_EXPECTED") },
+            OPEN_PARENTHESIS_EXPECTED: { message: Globalize.localize("OPEN_PARENTHESIS_EXPECTED") },
+            CLOSING_PARENTHESIS_EXPECTED: { message: Globalize.localize("CLOSING_PARENTHESIS_EXPECTED") },
+            LATEX_COMMAND_EXPECTED: { message: Globalize.localize("LATEX_COMMAND_EXPECTED") },
+            DIGITAL_NUMBER_EXPECTED: { message: Globalize.localize("DIGITAL_NUMBER_EXPECTED") },
+            VAR_Y_EXPECTED: { message: Globalize.localize("VAR_Y_EXPECTED") },
+            VAR_X_EXPECTED: { message: Globalize.localize("VAR_X_EXPECTED") },
+            VAR_T_EXPECTED: { message: Globalize.localize("VAR_T_EXPECTED") },
+            VARIABLE_NAME_EXPECTED: { message: Globalize.localize("VARIABLE_NAME_EXPECTED") },
+            CONSTANT_VALUE_EXPECTED: { message: Globalize.localize("CONSTANT_VALUE_EXPECTED") },
+            FUNCTION_EXPECTED: { message: Globalize.localize("FUNCTION_EXPECTED") },
+            COMMA_EXPECTED: { message: Globalize.localize("COMMA_EXPECTED") },
+            END_OF_SOURCE_EXPECTED: { message: Globalize.localize("END_OF_SOURCE_EXPECTED") },
+            EQUAL_SIGN_EXPECTED: { message: Globalize.localize("EQUAL_SIGN_EXPECTED") },
+            POSITIVE_SIGN_EXPECTED: { message: Globalize.localize("POSITIVE_SIGN_EXPECTED") },
+            NEGATIVE_SIGN_EXPECTED: { message: Globalize.localize("NEGATIVE_SIGN_EXPECTED") },
+            UNKNOWN_ERROR: { message: Globalize.localize("UNKNOWN_ERROR") },
+            UNEXPECTED_END_OF_SOURCE: { message: Globalize.localize("UNEXPECTED_END_OF_SOURCE") },
+            LESS_THAN_EXPECTED: { message: Globalize.localize("LESS_THAN_EXPECTED") },
+            LEFT_COMMAND_EXPECTED: { message: Globalize.localize("LEFT_COMMAND_EXPECTED") },
+            RIGHT_COMMAND_EXPECTED: { message: Globalize.localize("RIGHT_COMMAND_EXPECTED") },
+            PIPE_EXPECTED: { message: Globalize.localize("PIPE_EXPECTED") },
+            UNEXPECTED_RIGHT_COMMAND: { message: Globalize.localize("UNEXPECTED_RIGHT_COMMAND") },
+            UNKNOWN_LATEX_COMMAND_MET: { message: Globalize.localize("UNKNOWN_LATEX_COMMAND_MET") }
+        });
+    </script>
+
+    <script type="text/javascript">
+        (function(parser) {
+            $(document).ready(function() {
+                $(".button.clear-all").click(function(event) {
+                    FunControl.UI.DeleteAllExpressionLines();
+                });
+
+                $("#get-link").click(function(event) {
+                    $(this).attr("href", FunControl.GetLink(window.location.href));
+                });
+
+                FunControl.UI.Hooks.addExpressionLine.push(function(funControlUI, $expressionLine, $mathquill, latex, event) {
+                    $expressionLine.append(
+						"<div class=\"answer\">" +
+							"<div><span class=\"mathquill-embedded-latex\"></span></div>" +
+							"<div class=\"message\"></div>" +
+							"</div>" +
+							"<div class=\"clearFloat\"></div>");
+                });
+
+                function calculateExpression(funControlUI, $expressionLine, $mathquill, latex, event) {
+                    var $answer = $expressionLine.find(".answer");
+                    var $answerMathquill = $answer.find(".mathquill-embedded-latex");
+                    var $message = $answer.find(".message");
+                    try {
+                        var answer = latex;
+                        var answer2 = '';
+                        if (latex !== "") {
+                            parser.init(latex);
+                            var countOfEqualSign = latex.split("=").length - 1;
+
+                            if (countOfEqualSign === 1) {
+                                parser.run();
+                            } else if (countOfEqualSign === 0) {
+                                parser.runSpecific(function(p) {
+                                    p.expression(true);
+                                });
+                            } else {
+
+                            }
+
+                            if (countOfEqualSign <= 1 && parser.errorList.length <= 0) {
+                                try {
+                                    answer = eval(parser.tree.eval());
+                                    
+                                    var frac = Fraction.newFraction(answer, false);
+                                    if (frac.valid && frac.denominator !== 1) {
+                                        answer2 = '\\frac{' + frac.numerator + '}{' + frac.denominator + '}';
+                                    }
+                                } catch (ex) {
+                                    answer = parser.tree.eval();
+
+                                    var fracRegex = /\\frac{(.+)}{(.+)}/;
+                                    var matches = fracRegex.exec(answer);
+                                    if (matches != null) {
+                                        answer2 = matches[1] / matches[2];
+                                    }
+                                }
+                            } else {
+                                var expression = latex.replace(/\\\w+/g, "");
+
+                                try {
+                                    answer = eval(expression);
+                                } catch(ex) {
+
+                                    function ParserException($expressionLine, errorList, jsError) {
+                                        this.$ExpressionLine = $expressionLine;
+                                        this.ErrorList = errorList;
+                                        this.JsError = jsError;
+                                    }
+
+                                    var parserError = new ParserException($expressionLine, parser.errorList, ex);
+                                    throw parserError;
+                                }
+                            }
+                        }
+
+                        var finalAnswer = answer;
+                        if (answer2 !== '') {
+                            //finalAnswer = '=' + answer + '\\approx' + answer2;
+                            finalAnswer = '=' + answer + '=' + answer2;
+                        }
+
+                        $answerMathquill.text(finalAnswer).mathquill();
+
+                        $message.text("");
+
+                        funControlUI.RemoveErrorStyle($expressionLine);
+                    } catch(ex) {
+                        if (ex instanceof ParserException) {
+                            $answerMathquill.text("");
+
+                            $message.html("");
+                            var errorBox = funControlUI.ShowErrorStyle(ex.$ExpressionLine, ex.ErrorList, true).show();
+                            errorBox.css({
+                                "position": "relative",
+                                "left": 0,
+                                "top": 0,
+                                "right": 0,
+                                "bottom": 0,
+                                "margin": "0 0 5px 0"
+                            });
+
+                            $message.append(errorBox);
+                            $message.append("<div>" + ex.JsError + "</div>");
+                        } else {
+                            $answerMathquill.text("");
+
+                            $message.text(ex);
+                        }
+                    } finally {
+                        var $nextExpressionLine = $expressionLine.next();
+                        if ($nextExpressionLine.length > 0) {
+                            var $nextMathquill = $nextExpressionLine.find("span.mathquill-editable");
+                            var nextLatex = $nextMathquill.mathquill("latex");
+
+                            calculateExpression(funControlUI, $nextExpressionLine, $nextMathquill, nextLatex, event);
+                        }
+                    }
+                }
+
+                function refreshExpression(funControlUI, $expressionLine, $mathquill, latex, event) {
+                    var $nextExpressionLine = $expressionLine.next();
+                    if ($nextExpressionLine.length > 0) {
+                        var $nextMathquill = $nextExpressionLine.find("span.mathquill-editable");
+                        var nextLatex = $nextMathquill.mathquill("latex");
+
+                        calculateExpression(funControlUI, $nextExpressionLine, $nextMathquill, nextLatex, event);
+                    }
+                }
+
+                FunControl.UI.Hooks.keyup.push(calculateExpression);
+                FunControl.UI.Hooks.deleteExpressionLine.push(refreshExpression);
+
+                var urlParams = zizhujy.com.deserializeUrlParams();
+
+                if (!!urlParams && !!urlParams.fns) {
+                    var expressions = FunControl.DecodeExpressions(decodeURIComponent(urlParams.fns));
+                    if (expressions instanceof Array) {
+                        for (var i = 0; i < expressions.length; i++) {
+                            var e = expressions[i];
+                            FunControl.UI.AddExpression(e);
+                        }
+                    }
+                }
+
+                if (/Windows Phone/i.test(navigator.userAgent)) {
+                    $(document).on("click", ".expressionBox > span.mathquill-editable", function (event) {
+                        $(this).find("textarea").css({
+                            "width": "1px",
+                            "height": "1px",
+                            "display": "block"
+                        }).focus();
+                    });
+                }
+            });
+        })(zizhujy.com.LaTexParser);
+    </script>
+
+</head>
+<body>
+    <div id="page">
+            <div id="header">
+                <div id="menucontainer">
+                    <ul class="menu" style="float: left;">
+                        <li pageid="Home">
+                            <a href="/zh-CN" title="首页">首页</a>
+                        </li>
+                        <li pageid="FunctionGrapher">
+                            <a href="/zh-CN/FunctionGrapher" title="在线函数画图 - 图形计算器，在线求解方程">函数画图</a>
+                        </li>
+                        <li pageid="Plotter">
+                            <a href="/zh-CN/Plotter" title="在线统计计算器 - 作散点图，趋势拟合，线性回归">统计计算器</a>
+                        </li>
+                        <li pageid="ScientificCalculator">
+                            <a href="/zh-CN/GeekCalculator" title="牛屄的科学计算器">极客计算器</a>
+                        </li>
+                        <li pageid="PDFConverter">
+                            <a href="/zh-CN/PDFConverter" title="在线将网页转换成 PDF 文档">PDF 转换器</a>
+                        </li>
+                        <li pageid="GraphWorld">
+                            <a href="/zh-CN/GraphWorld" title="在线生成完全图、正则图、随机图">图的世界</a>
+                        </li>
+                        <li pageid="Matrix">
+                            <a href="/zh-CN/Matrix" title="在线矩阵计算器">矩阵计算器</a>
+                        </li>
+
+                        <li pageid="ApplicationFactory">
+                            <a href="/zh-CN/ApplicationFactory" title="在线应用工厂">应用工厂</a>
+                        </li>
+                        <li pageid="Blog">
+                            <a href="/blog" title="我的博客" target="_blank">博客</a>
+                        </li>
+                        <li pageid="About">
+                            <a href="/zh-CN/Home/About" title="关于我">关于</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="clearFloat"></div>
+                </div>
+
+                <div id="additional-header"></div>
+            </div>
+        <div id="main">
+            
+
+
+<zizhujy pageid="ScientificCalculator"></zizhujy>
+
+<div id="layout">
+    <div id="control-panel">
+        <div class="header">
+            <input type="button" class="button clear-all" value="清除算式" accesskey="c" />
+
+            <a id="get-link" href="/zh-CN/GeekCalculator" title="获取包含当前算式的永久链接。" target="_blank">获取链接</a>
+            <div class="clearFloat"></div>
+        </div>
+        <div class="body">
+            <div class="expressionLine">
+                <div id="taExpression1" class="expressionBox">
+                    <span class="mathquill-editable"></span><span class="icon clear">×</span>
+                </div>
+                <div class="answer">
+                    <div><span class="mathquill-embedded-latex"></span></div>
+                    <div class="message"></div>
+                </div>
+                <div class="clearFloat"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="width: 100%;">
+    
+
+    <div>
+        <h2>极客计算器</h2>
+        <h3>特性：</h3>
+        <ul>
+            <li>
+                <strong>极速：</strong>
+                即时响应，就在你输入的时候显示结果。如果你不小心输入了不正确的算式，它会立即提示输入的错误信息以帮助你更正；
+            </li>
+            <li>
+                <strong>自由：</strong>
+                你只用专注于输入数学算式，而结果自动在旁边呈现；
+            </li>
+            <li>
+                <strong>过程</strong>
+                可以一行一行地将算式列出来，方便地用于展示你的解题过程；
+            </li>
+            <li class="new">
+                <strong>小数分数互换</strong>
+                小数与分数快速转换；将无限循环小数转换为分数表示。
+            </li>
+            <li>
+                <strong>分享：</strong>
+                点击“获取链接”，随时将你的计算过程保存下来或者分享出去。
+            </li>
+        </ul>
+        <h3>示例：</h3>
+        <ul>
+            <li>
+                <a href="/zh-CN/GeekCalculator?fns=base64%25252FWyJcXHNxcnR7MjV9IiwieD0zIiwieT02NiIsInheMit5XjIiXQ%25253D%25253D" target="_blank" title="基本示例">基本示例</a>
+            </li>
+            <li>
+                <strong>
+                    <a href="/zh-CN/GeekCalculator?fns=base64%25252FWyIxLjAxXnszNjV9IiwiMC45OV57MzY1fSJd" target="_blank" title="一个小小的改变将会大大不同，你选择什么样的改变呢？">你选择哪个？</a>
+                </strong> 一个小小的改变将会大大不同，你选择什么样的改变呢？
+            </li>
+            <li>
+                <strong>
+                    <a href="/zh-CN/GeekCalculator?fns=base64%25252FWyIwLjYiLCIwLjY2IiwiMC42NmA2YCIsIjAuMyIsIjAuMzMiLCIwLmAzYCIsIjAuMTQyODU3YDE0Mjg1N2AiXQ%25253D%25253D" target="_blank" title="将小数转换成它的分数形式，你甚至可以将一个无限循环小数转换成它的精确分数表示！ 想知道这是怎么做到的？这篇博文有详细的算法描述：《&lt;strong>&lt;a href=&quot;http://zizhujy.com/blog/post/2014/01/21/%E5%B0%86%E5%B0%8F%E6%95%B0%E8%BD%AC%E5%8C%96%E4%B8%BA%E5%88%86%E6%95%B0%E7%9A%84%E7%AE%97%E6%B3%95.aspx&quot; target=&quot;_blank&quot;>将小数转化为分数的算法&lt;/a>&lt;/strong>》。">将小数转换为分数表示</a>
+                </strong> 将小数转换成它的分数形式，你甚至可以将一个无限循环小数转换成它的精确分数表示！ 想知道这是怎么做到的？这篇博文有详细的算法描述：《<strong><a href="http://zizhujy.com/blog/post/2014/01/21/%E5%B0%86%E5%B0%8F%E6%95%B0%E8%BD%AC%E5%8C%96%E4%B8%BA%E5%88%86%E6%95%B0%E7%9A%84%E7%AE%97%E6%B3%95.aspx" target="_blank">将小数转化为分数的算法</a></strong>》。
+            </li>
+        </ul>
+        <h3>教程：</h3>
+        <p>还没来得及写。不过，它的使用真的非常简单，你可以通过查看示例学会。然后，你可以将你的经验发布在你的博客上，或者将你的计算过程的链接粘贴在你的微博上，大家可以通过你的实际使用获得启发。</p>
+        <h3>无限大量</h3>
+        <p>分母是符号0的分数，称为无限大量。在这个以符号0作为分母的量中，可以加入或取出任何量而无任何变化发生，就像在毁灭世界或创造世界的时期，那个无穷的、不变的上帝没有发生任何变化一样，虽然有大量种类的生物被吞没或产生出来。</p>
+        <p class="align-right">——— 【英】斯科特 《数学史》</p>
+        <p>
+            <img src="/Content/Images/GeekCalculator/Infinite.jpg" alt="无限大量" />
+        </p>
+    </div>
+    <div class="clearFloat"></div>
+</div>
+
+
+            <div class="clearFloat"></div>
+        </div>
+        <div id="footer">
+            <ul class="footerMenu">
+                <li>
+                    <a href="mailto:jeff.tian@outlook.com" title="联系我" target="_blank">
+                        联系我
+                    </a>
+                </li>
+                <li>
+                    <a href="/zh-CN/Home/Resume" target="_blank">招了我？</a>
+                </li>
+                <li>
+<a href="http://nowherewoman.com/" target="_blank" title="
+除了工作，你的生活还需要点儿别的颜色。">找不到的女人？</a>
+</li>
+                
+                
+            </ul>
+            
+            <div style="float: right;">
+                <ul class="footerMenu">
+                    <li>
+                        <a href="http://zizhujy.apphb.com" title="镜像站点" target="_blank">
+                            镜像站点
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://bitbucket.org/JeffTian/zizhujy.com/wiki/Home" title="维基" target="_blank">
+                            维基
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://bitbucket.org/JeffTian/zizhujy.com/issues/new" title="谢谢你向我报告问题，有你的帮助我会做得更好！" target="_blank">
+                            报告问题
+                        </a>
+                    </li>
+                </ul>
+                
+    <label for="cultures" class="icon" style="vertical-align: middle;">&#xe000;</label> <span class="ui-widget" id="culture-selection"><select id="cultures" name="cultures"><option value="/en-us/GeekCalculator?fns=base64%25252FWyIxLjAxXnszNjV9IiwiMC45OV57MzY1fSJd">English (United State)</option>
+<option selected="selected" value="/zh-cn/GeekCalculator?fns=base64%25252FWyIxLjAxXnszNjV9IiwiMC45OV57MzY1fSJd">中文（简体）</option>
+</select></span>
+
+            </div>
+            <div class="clearFloat"></div>
+        </div>
+    </div>
+    
+
+        <link href="/Scripts/SocialPlugin/socialplugin.css" rel="Stylesheet" type="text/css" />
+        <script defer="defer" src="/Scripts/SocialPlugin/socialplugin.js" type="text/javascript"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4867336-3', 'zizhujy.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

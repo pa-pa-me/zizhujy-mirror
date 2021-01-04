@@ -1,0 +1,54 @@
+
+.colmask{
+  position:relative;
+  clear:both;
+  float:left;
+  width:100%;
+  overflow:hidden;
+}
+
+.colright,
+.colmid,
+.colleft{
+  float:left;
+  width:100%;
+  position:relative;
+}
+
+.col1,
+.col2,
+.col3{
+  float:left;
+  position:relative;
+  padding:0 0 1em 0;
+  overflow:hidden;
+}
+
+.threecol{
+  background:#eee;
+}
+
+  .threecol .colmid{
+    right:25%;
+    background:#fff;
+  }
+
+  .threecol .colleft{
+    right:50%;
+    background:#f4f4f4;
+  }
+
+  .threecol .col1{
+    width:46%;
+    left:102%;
+  }
+
+  .threecol .col2{
+    width:21%;
+    left:31%;
+  }
+
+  .threecol .col3{
+    width:21%;
+    left:85%;
+  }

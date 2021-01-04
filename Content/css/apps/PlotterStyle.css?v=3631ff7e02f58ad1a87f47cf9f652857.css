@@ -1,0 +1,77 @@
+
+
+.colmask{
+  position:relative;
+  clear:both;
+  float:left;
+  width:100%;
+  overflow:hidden;
+}
+
+.colright,
+.colmid,
+.colleft{
+  float:left;
+  width:100%;
+  position:relative;
+}
+
+.col1,
+.col2,
+.col3{
+  float:left;
+  position:relative;
+  padding:0 0 1em 0;
+  overflow:hidden;
+}
+
+.threecol{
+  background:#eee;
+}
+
+  .threecol .colmid{
+    right:26%;
+    background:#fff;
+  }
+
+  .threecol .colleft{
+    right:55%;
+    background:#f4f4f4;
+  }
+
+  .threecol .col1{
+    width:55%;
+    left:100%;
+  }
+
+  .threecol .col2{
+    width:17%;
+    left:27%;
+  }
+
+  .threecol .col3{
+    width:25%;
+    left:84%;
+  }
+
+.errorBox{
+  border:solid 2px red;
+}
+
+body{
+  min-width:1180px;
+  max-height:100%;
+}
+
+.adZone{
+  display:inline-block;
+}
+
+#statsColumn{
+  text-align:right;
+}
+
+#statsColumn table{
+  float:right;
+  clear:both;
+}
