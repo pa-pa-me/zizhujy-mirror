@@ -27,12 +27,12 @@
 
     
     <script type="text/javascript" src="/Scripts/es5-shim/es5.js?v=40b03b5a424301cce89530ae9cdb1e1a"></script><script src="/Scripts/skulpt/js?v=ojzHl0bjVcPoZu-g9p1G38v-3P7NTMZ6eAgguVy0i8k1"></script>
-<script type="text/javascript" src="/Scripts/CodeMirror/lib/codemirror.js?v=7aee4ce640a8ffc4b896fa6936f5582e"></script><script type="text/javascript" src="/Scripts/CodeMirror/mode/python/python.js?v=276c05bde8d7b945784374d8ee17964d"></script><script type="text/javascript" src="/Scripts/drawing/canvas2image.js?v=38bd19d079169bbe399e27630f5f874b"></script><script type="text/javascript" src="/Scripts/flot/saveAsImage/canvasAsImage.js?v=d8735b3720bf4b8e28fa1fbca8762dde"></script>
+<script type="text/javascript" src="/Scripts/CodeMirror/lib/codemirror.js?v=7aee4ce640a8ffc4b896fa6936f5582e"></script><script type="text/javascript" src="/Scripts/CodeMirror/mode/python/python.js?v=276c05bde8d7b945784374d8ee17964d"></script><script type="text/javascript" src="/Scripts/drawing/canvas2image.js?v=38bd19d079169bbe399e27630f5f874b"></script><script type="text/javascript" src="/Scripts/Flot/saveAsImage/canvasAsImage.js?v=d8735b3720bf4b8e28fa1fbca8762dde"></script>
 
     <script type="text/javascript">
         requireLite([
                 {
-                    path: "/Scripts/flot/flot/lib/excanvas.min.js",
+                    path: "/Scripts/Flot/flot/lib/excanvas.min.js",
                     canary: "typeof ie !== 'undefined'"
                 }
         ], function () {
